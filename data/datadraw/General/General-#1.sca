@@ -1,0 +1,1100 @@
+version 2
+run General-1-20241004-15:19:16-238276
+attr configname General
+attr datetime 20241004-15:19:16
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network dragonflyplus
+attr processid 238276
+attr repetition 1
+attr replication #1
+attr resultdir results
+attr runnumber 1
+attr seedset 1
+param **.numOfNode 64
+param **.numOfGroups 8
+param **.switchInPod 4
+param **.numOfSwitch 32
+param **.numOfPortsInLeaf 6
+param **.numOfPortsInSpine 7
+param **.numOfMEMS 8
+param **.gobalLinks 2
+param **.controlPort 4
+param **.repetition 1
+param **.ODataRate 100Gbps
+param **.EDataRate 40Gbps
+param **.bigOrSmall false
+param **.rTopo true
+param **.heuristicAlgorithm 0
+param **.flitByteLength 64
+param **.msgLength 16384
+param **.stepLength 100
+param **.T_night 0.001000001
+param **.T_nightInMEMS 0.001
+param **.allocateInterval 0.001
+param **.numOfSamples 1
+param **.flowPattern 2
+param **.messageinterval_us "40.96 / (1 +1)"
+param **.dealDelay 0.000000064
+param **.socketPort 8889
+
+scalar dragonflyplus.spineSwitch[0] PortSend_0 7721
+scalar dragonflyplus.spineSwitch[0] PortSend_1 6353
+scalar dragonflyplus.spineSwitch[0] PortSend_2 5455
+scalar dragonflyplus.spineSwitch[0] PortSend_3 4925
+scalar dragonflyplus.spineSwitch[0] PortSend_4 0
+scalar dragonflyplus.spineSwitch[0] PortSend_5 1953058
+scalar dragonflyplus.spineSwitch[0] PortSend_6 1953058
+scalar dragonflyplus.spineSwitch[1] PortSend_0 5459
+scalar dragonflyplus.spineSwitch[1] PortSend_1 3642
+scalar dragonflyplus.spineSwitch[1] PortSend_2 5243
+scalar dragonflyplus.spineSwitch[1] PortSend_3 3479
+scalar dragonflyplus.spineSwitch[1] PortSend_4 0
+scalar dragonflyplus.spineSwitch[1] PortSend_5 1953056
+scalar dragonflyplus.spineSwitch[1] PortSend_6 1953053
+scalar dragonflyplus.spineSwitch[2] PortSend_0 47925
+scalar dragonflyplus.spineSwitch[2] PortSend_1 47605
+scalar dragonflyplus.spineSwitch[2] PortSend_2 47142
+scalar dragonflyplus.spineSwitch[2] PortSend_3 42842
+scalar dragonflyplus.spineSwitch[2] PortSend_4 0
+scalar dragonflyplus.spineSwitch[2] PortSend_5 1952991
+scalar dragonflyplus.spineSwitch[2] PortSend_6 1952963
+scalar dragonflyplus.spineSwitch[3] PortSend_0 2895
+scalar dragonflyplus.spineSwitch[3] PortSend_1 1576
+scalar dragonflyplus.spineSwitch[3] PortSend_2 1347
+scalar dragonflyplus.spineSwitch[3] PortSend_3 1352
+scalar dragonflyplus.spineSwitch[3] PortSend_4 0
+scalar dragonflyplus.spineSwitch[3] PortSend_5 1953076
+scalar dragonflyplus.spineSwitch[3] PortSend_6 0
+scalar dragonflyplus.spineSwitch[4] PortSend_0 49643
+scalar dragonflyplus.spineSwitch[4] PortSend_1 47076
+scalar dragonflyplus.spineSwitch[4] PortSend_2 45295
+scalar dragonflyplus.spineSwitch[4] PortSend_3 46248
+scalar dragonflyplus.spineSwitch[4] PortSend_4 0
+scalar dragonflyplus.spineSwitch[4] PortSend_5 1952556
+scalar dragonflyplus.spineSwitch[4] PortSend_6 1952506
+scalar dragonflyplus.spineSwitch[5] PortSend_0 7627
+scalar dragonflyplus.spineSwitch[5] PortSend_1 5243
+scalar dragonflyplus.spineSwitch[5] PortSend_2 4216
+scalar dragonflyplus.spineSwitch[5] PortSend_3 4405
+scalar dragonflyplus.spineSwitch[5] PortSend_4 0
+scalar dragonflyplus.spineSwitch[5] PortSend_5 1953066
+scalar dragonflyplus.spineSwitch[5] PortSend_6 1953066
+scalar dragonflyplus.spineSwitch[6] PortSend_0 4750
+scalar dragonflyplus.spineSwitch[6] PortSend_1 5329
+scalar dragonflyplus.spineSwitch[6] PortSend_2 4684
+scalar dragonflyplus.spineSwitch[6] PortSend_3 5290
+scalar dragonflyplus.spineSwitch[6] PortSend_4 0
+scalar dragonflyplus.spineSwitch[6] PortSend_5 1953071
+scalar dragonflyplus.spineSwitch[6] PortSend_6 1953071
+scalar dragonflyplus.spineSwitch[7] PortSend_0 3623
+scalar dragonflyplus.spineSwitch[7] PortSend_1 3041
+scalar dragonflyplus.spineSwitch[7] PortSend_2 1786
+scalar dragonflyplus.spineSwitch[7] PortSend_3 2524
+scalar dragonflyplus.spineSwitch[7] PortSend_4 0
+scalar dragonflyplus.spineSwitch[7] PortSend_5 1953076
+scalar dragonflyplus.spineSwitch[7] PortSend_6 0
+scalar dragonflyplus.spineSwitch[8] PortSend_0 6633
+scalar dragonflyplus.spineSwitch[8] PortSend_1 6104
+scalar dragonflyplus.spineSwitch[8] PortSend_2 6384
+scalar dragonflyplus.spineSwitch[8] PortSend_3 7230
+scalar dragonflyplus.spineSwitch[8] PortSend_4 0
+scalar dragonflyplus.spineSwitch[8] PortSend_5 1953058
+scalar dragonflyplus.spineSwitch[8] PortSend_6 1953058
+scalar dragonflyplus.spineSwitch[9] PortSend_0 5004
+scalar dragonflyplus.spineSwitch[9] PortSend_1 5634
+scalar dragonflyplus.spineSwitch[9] PortSend_2 4716
+scalar dragonflyplus.spineSwitch[9] PortSend_3 4972
+scalar dragonflyplus.spineSwitch[9] PortSend_4 0
+scalar dragonflyplus.spineSwitch[9] PortSend_5 1953068
+scalar dragonflyplus.spineSwitch[9] PortSend_6 1953068
+scalar dragonflyplus.spineSwitch[10] PortSend_0 42334
+scalar dragonflyplus.spineSwitch[10] PortSend_1 44676
+scalar dragonflyplus.spineSwitch[10] PortSend_2 45668
+scalar dragonflyplus.spineSwitch[10] PortSend_3 46104
+scalar dragonflyplus.spineSwitch[10] PortSend_4 0
+scalar dragonflyplus.spineSwitch[10] PortSend_5 1953003
+scalar dragonflyplus.spineSwitch[10] PortSend_6 1953003
+scalar dragonflyplus.spineSwitch[11] PortSend_0 2857
+scalar dragonflyplus.spineSwitch[11] PortSend_1 2225
+scalar dragonflyplus.spineSwitch[11] PortSend_2 2280
+scalar dragonflyplus.spineSwitch[11] PortSend_3 2391
+scalar dragonflyplus.spineSwitch[11] PortSend_4 0
+scalar dragonflyplus.spineSwitch[11] PortSend_5 1953076
+scalar dragonflyplus.spineSwitch[11] PortSend_6 0
+scalar dragonflyplus.spineSwitch[12] PortSend_0 49470
+scalar dragonflyplus.spineSwitch[12] PortSend_1 49587
+scalar dragonflyplus.spineSwitch[12] PortSend_2 45567
+scalar dragonflyplus.spineSwitch[12] PortSend_3 48040
+scalar dragonflyplus.spineSwitch[12] PortSend_4 0
+scalar dragonflyplus.spineSwitch[12] PortSend_5 1952891
+scalar dragonflyplus.spineSwitch[12] PortSend_6 1952896
+scalar dragonflyplus.spineSwitch[13] PortSend_0 5756
+scalar dragonflyplus.spineSwitch[13] PortSend_1 5237
+scalar dragonflyplus.spineSwitch[13] PortSend_2 4744
+scalar dragonflyplus.spineSwitch[13] PortSend_3 5132
+scalar dragonflyplus.spineSwitch[13] PortSend_4 0
+scalar dragonflyplus.spineSwitch[13] PortSend_5 1953068
+scalar dragonflyplus.spineSwitch[13] PortSend_6 1953058
+scalar dragonflyplus.spineSwitch[14] PortSend_0 5746
+scalar dragonflyplus.spineSwitch[14] PortSend_1 4489
+scalar dragonflyplus.spineSwitch[14] PortSend_2 4877
+scalar dragonflyplus.spineSwitch[14] PortSend_3 5748
+scalar dragonflyplus.spineSwitch[14] PortSend_4 0
+scalar dragonflyplus.spineSwitch[14] PortSend_5 1953058
+scalar dragonflyplus.spineSwitch[14] PortSend_6 1953058
+scalar dragonflyplus.spineSwitch[15] PortSend_0 2704
+scalar dragonflyplus.spineSwitch[15] PortSend_1 2583
+scalar dragonflyplus.spineSwitch[15] PortSend_2 2400
+scalar dragonflyplus.spineSwitch[15] PortSend_3 1490
+scalar dragonflyplus.spineSwitch[15] PortSend_4 0
+scalar dragonflyplus.spineSwitch[15] PortSend_5 1953076
+scalar dragonflyplus.spineSwitch[15] PortSend_6 0
+scalar dragonflyplus.spineSwitch[16] PortSend_0 9017
+scalar dragonflyplus.spineSwitch[16] PortSend_1 8519
+scalar dragonflyplus.spineSwitch[16] PortSend_2 5853
+scalar dragonflyplus.spineSwitch[16] PortSend_3 6258
+scalar dragonflyplus.spineSwitch[16] PortSend_4 0
+scalar dragonflyplus.spineSwitch[16] PortSend_5 1953058
+scalar dragonflyplus.spineSwitch[16] PortSend_6 1953071
+scalar dragonflyplus.spineSwitch[17] PortSend_0 7846
+scalar dragonflyplus.spineSwitch[17] PortSend_1 9049
+scalar dragonflyplus.spineSwitch[17] PortSend_2 8550
+scalar dragonflyplus.spineSwitch[17] PortSend_3 6332
+scalar dragonflyplus.spineSwitch[17] PortSend_4 0
+scalar dragonflyplus.spineSwitch[17] PortSend_5 1953058
+scalar dragonflyplus.spineSwitch[17] PortSend_6 1953066
+scalar dragonflyplus.spineSwitch[18] PortSend_0 43822
+scalar dragonflyplus.spineSwitch[18] PortSend_1 45296
+scalar dragonflyplus.spineSwitch[18] PortSend_2 43765
+scalar dragonflyplus.spineSwitch[18] PortSend_3 44177
+scalar dragonflyplus.spineSwitch[18] PortSend_4 0
+scalar dragonflyplus.spineSwitch[18] PortSend_5 1953051
+scalar dragonflyplus.spineSwitch[18] PortSend_6 1953051
+scalar dragonflyplus.spineSwitch[19] PortSend_0 1903
+scalar dragonflyplus.spineSwitch[19] PortSend_1 1599
+scalar dragonflyplus.spineSwitch[19] PortSend_2 985
+scalar dragonflyplus.spineSwitch[19] PortSend_3 1028
+scalar dragonflyplus.spineSwitch[19] PortSend_4 0
+scalar dragonflyplus.spineSwitch[19] PortSend_5 1953081
+scalar dragonflyplus.spineSwitch[19] PortSend_6 0
+scalar dragonflyplus.spineSwitch[20] PortSend_0 50189
+scalar dragonflyplus.spineSwitch[20] PortSend_1 51265
+scalar dragonflyplus.spineSwitch[20] PortSend_2 49763
+scalar dragonflyplus.spineSwitch[20] PortSend_3 47313
+scalar dragonflyplus.spineSwitch[20] PortSend_4 0
+scalar dragonflyplus.spineSwitch[20] PortSend_5 1952906
+scalar dragonflyplus.spineSwitch[20] PortSend_6 1952906
+scalar dragonflyplus.spineSwitch[21] PortSend_0 7594
+scalar dragonflyplus.spineSwitch[21] PortSend_1 9314
+scalar dragonflyplus.spineSwitch[21] PortSend_2 7585
+scalar dragonflyplus.spineSwitch[21] PortSend_3 8951
+scalar dragonflyplus.spineSwitch[21] PortSend_4 0
+scalar dragonflyplus.spineSwitch[21] PortSend_5 1953063
+scalar dragonflyplus.spineSwitch[21] PortSend_6 1953058
+scalar dragonflyplus.spineSwitch[22] PortSend_0 6754
+scalar dragonflyplus.spineSwitch[22] PortSend_1 6899
+scalar dragonflyplus.spineSwitch[22] PortSend_2 6247
+scalar dragonflyplus.spineSwitch[22] PortSend_3 4408
+scalar dragonflyplus.spineSwitch[22] PortSend_4 0
+scalar dragonflyplus.spineSwitch[22] PortSend_5 1953058
+scalar dragonflyplus.spineSwitch[22] PortSend_6 1953058
+scalar dragonflyplus.spineSwitch[23] PortSend_0 1745
+scalar dragonflyplus.spineSwitch[23] PortSend_1 2403
+scalar dragonflyplus.spineSwitch[23] PortSend_2 2339
+scalar dragonflyplus.spineSwitch[23] PortSend_3 1612
+scalar dragonflyplus.spineSwitch[23] PortSend_4 0
+scalar dragonflyplus.spineSwitch[23] PortSend_5 1953078
+scalar dragonflyplus.spineSwitch[23] PortSend_6 0
+scalar dragonflyplus.spineSwitch[24] PortSend_0 6213
+scalar dragonflyplus.spineSwitch[24] PortSend_1 5171
+scalar dragonflyplus.spineSwitch[24] PortSend_2 7273
+scalar dragonflyplus.spineSwitch[24] PortSend_3 7998
+scalar dragonflyplus.spineSwitch[24] PortSend_4 0
+scalar dragonflyplus.spineSwitch[24] PortSend_5 1953058
+scalar dragonflyplus.spineSwitch[24] PortSend_6 1953058
+scalar dragonflyplus.spineSwitch[25] PortSend_0 6616
+scalar dragonflyplus.spineSwitch[25] PortSend_1 6891
+scalar dragonflyplus.spineSwitch[25] PortSend_2 6649
+scalar dragonflyplus.spineSwitch[25] PortSend_3 8856
+scalar dragonflyplus.spineSwitch[25] PortSend_4 0
+scalar dragonflyplus.spineSwitch[25] PortSend_5 1953056
+scalar dragonflyplus.spineSwitch[25] PortSend_6 1953068
+scalar dragonflyplus.spineSwitch[26] PortSend_0 53043
+scalar dragonflyplus.spineSwitch[26] PortSend_1 49331
+scalar dragonflyplus.spineSwitch[26] PortSend_2 49156
+scalar dragonflyplus.spineSwitch[26] PortSend_3 50311
+scalar dragonflyplus.spineSwitch[26] PortSend_4 0
+scalar dragonflyplus.spineSwitch[26] PortSend_5 1952928
+scalar dragonflyplus.spineSwitch[26] PortSend_6 1952953
+scalar dragonflyplus.spineSwitch[27] PortSend_0 2976
+scalar dragonflyplus.spineSwitch[27] PortSend_1 3442
+scalar dragonflyplus.spineSwitch[27] PortSend_2 2701
+scalar dragonflyplus.spineSwitch[27] PortSend_3 3489
+scalar dragonflyplus.spineSwitch[27] PortSend_4 0
+scalar dragonflyplus.spineSwitch[27] PortSend_5 1953083
+scalar dragonflyplus.spineSwitch[27] PortSend_6 0
+scalar dragonflyplus.spineSwitch[28] PortSend_0 48666
+scalar dragonflyplus.spineSwitch[28] PortSend_1 49810
+scalar dragonflyplus.spineSwitch[28] PortSend_2 53707
+scalar dragonflyplus.spineSwitch[28] PortSend_3 51455
+scalar dragonflyplus.spineSwitch[28] PortSend_4 0
+scalar dragonflyplus.spineSwitch[28] PortSend_5 1952551
+scalar dragonflyplus.spineSwitch[28] PortSend_6 1952596
+scalar dragonflyplus.spineSwitch[29] PortSend_0 6796
+scalar dragonflyplus.spineSwitch[29] PortSend_1 9181
+scalar dragonflyplus.spineSwitch[29] PortSend_2 7712
+scalar dragonflyplus.spineSwitch[29] PortSend_3 7737
+scalar dragonflyplus.spineSwitch[29] PortSend_4 0
+scalar dragonflyplus.spineSwitch[29] PortSend_5 1953066
+scalar dragonflyplus.spineSwitch[29] PortSend_6 1953056
+scalar dragonflyplus.spineSwitch[30] PortSend_0 7594
+scalar dragonflyplus.spineSwitch[30] PortSend_1 7788
+scalar dragonflyplus.spineSwitch[30] PortSend_2 6799
+scalar dragonflyplus.spineSwitch[30] PortSend_3 5867
+scalar dragonflyplus.spineSwitch[30] PortSend_4 0
+scalar dragonflyplus.spineSwitch[30] PortSend_5 1953058
+scalar dragonflyplus.spineSwitch[30] PortSend_6 1953058
+scalar dragonflyplus.spineSwitch[31] PortSend_0 2843
+scalar dragonflyplus.spineSwitch[31] PortSend_1 2920
+scalar dragonflyplus.spineSwitch[31] PortSend_2 2429
+scalar dragonflyplus.spineSwitch[31] PortSend_3 2526
+scalar dragonflyplus.spineSwitch[31] PortSend_4 0
+scalar dragonflyplus.spineSwitch[31] PortSend_5 1953071
+scalar dragonflyplus.spineSwitch[31] PortSend_6 0
+scalar dragonflyplus.leafSwitch[0] PortSend_0 63383
+scalar dragonflyplus.leafSwitch[0] PortSend_1 62878
+scalar dragonflyplus.leafSwitch[0] PortSend_2 62089
+scalar dragonflyplus.leafSwitch[0] PortSend_3 61506
+scalar dragonflyplus.leafSwitch[0] PortSend_4 31699
+scalar dragonflyplus.leafSwitch[0] PortSend_5 32670
+scalar dragonflyplus.leafSwitch[1] PortSend_0 63322
+scalar dragonflyplus.leafSwitch[1] PortSend_1 62805
+scalar dragonflyplus.leafSwitch[1] PortSend_2 62040
+scalar dragonflyplus.leafSwitch[1] PortSend_3 61433
+scalar dragonflyplus.leafSwitch[1] PortSend_4 30454
+scalar dragonflyplus.leafSwitch[1] PortSend_5 29445
+scalar dragonflyplus.leafSwitch[2] PortSend_0 63316
+scalar dragonflyplus.leafSwitch[2] PortSend_1 62784
+scalar dragonflyplus.leafSwitch[2] PortSend_2 62066
+scalar dragonflyplus.leafSwitch[2] PortSend_3 61434
+scalar dragonflyplus.leafSwitch[2] PortSend_4 30855
+scalar dragonflyplus.leafSwitch[2] PortSend_5 28568
+scalar dragonflyplus.leafSwitch[3] PortSend_0 63317
+scalar dragonflyplus.leafSwitch[3] PortSend_1 62806
+scalar dragonflyplus.leafSwitch[3] PortSend_2 62066
+scalar dragonflyplus.leafSwitch[3] PortSend_3 61411
+scalar dragonflyplus.leafSwitch[3] PortSend_4 27494
+scalar dragonflyplus.leafSwitch[3] PortSend_5 25841
+scalar dragonflyplus.leafSwitch[4] PortSend_0 62716
+scalar dragonflyplus.leafSwitch[4] PortSend_1 61938
+scalar dragonflyplus.leafSwitch[4] PortSend_2 63188
+scalar dragonflyplus.leafSwitch[4] PortSend_3 61246
+scalar dragonflyplus.leafSwitch[4] PortSend_4 33978
+scalar dragonflyplus.leafSwitch[4] PortSend_5 32891
+scalar dragonflyplus.leafSwitch[5] PortSend_0 62847
+scalar dragonflyplus.leafSwitch[5] PortSend_1 62048
+scalar dragonflyplus.leafSwitch[5] PortSend_2 63299
+scalar dragonflyplus.leafSwitch[5] PortSend_3 61406
+scalar dragonflyplus.leafSwitch[5] PortSend_4 31423
+scalar dragonflyplus.leafSwitch[5] PortSend_5 29925
+scalar dragonflyplus.leafSwitch[6] PortSend_0 62845
+scalar dragonflyplus.leafSwitch[6] PortSend_1 62007
+scalar dragonflyplus.leafSwitch[6] PortSend_2 63303
+scalar dragonflyplus.leafSwitch[6] PortSend_3 61445
+scalar dragonflyplus.leafSwitch[6] PortSend_4 26279
+scalar dragonflyplus.leafSwitch[6] PortSend_5 30203
+scalar dragonflyplus.leafSwitch[7] PortSend_0 62927
+scalar dragonflyplus.leafSwitch[7] PortSend_1 62145
+scalar dragonflyplus.leafSwitch[7] PortSend_2 63429
+scalar dragonflyplus.leafSwitch[7] PortSend_3 61611
+scalar dragonflyplus.leafSwitch[7] PortSend_4 30235
+scalar dragonflyplus.leafSwitch[7] PortSend_5 28384
+scalar dragonflyplus.leafSwitch[8] PortSend_0 63162
+scalar dragonflyplus.leafSwitch[8] PortSend_1 62716
+scalar dragonflyplus.leafSwitch[8] PortSend_2 61943
+scalar dragonflyplus.leafSwitch[8] PortSend_3 61267
+scalar dragonflyplus.leafSwitch[8] PortSend_4 27299
+scalar dragonflyplus.leafSwitch[8] PortSend_5 30753
+scalar dragonflyplus.leafSwitch[9] PortSend_0 63489
+scalar dragonflyplus.leafSwitch[9] PortSend_1 62950
+scalar dragonflyplus.leafSwitch[9] PortSend_2 62184
+scalar dragonflyplus.leafSwitch[9] PortSend_3 61745
+scalar dragonflyplus.leafSwitch[9] PortSend_4 29093
+scalar dragonflyplus.leafSwitch[9] PortSend_5 29312
+scalar dragonflyplus.leafSwitch[10] PortSend_0 63504
+scalar dragonflyplus.leafSwitch[10] PortSend_1 62964
+scalar dragonflyplus.leafSwitch[10] PortSend_2 62205
+scalar dragonflyplus.leafSwitch[10] PortSend_3 61695
+scalar dragonflyplus.leafSwitch[10] PortSend_4 29087
+scalar dragonflyplus.leafSwitch[10] PortSend_5 29920
+scalar dragonflyplus.leafSwitch[11] PortSend_0 63161
+scalar dragonflyplus.leafSwitch[11] PortSend_1 62619
+scalar dragonflyplus.leafSwitch[11] PortSend_2 61886
+scalar dragonflyplus.leafSwitch[11] PortSend_3 61166
+scalar dragonflyplus.leafSwitch[11] PortSend_4 30276
+scalar dragonflyplus.leafSwitch[11] PortSend_5 31597
+scalar dragonflyplus.leafSwitch[12] PortSend_0 62043
+scalar dragonflyplus.leafSwitch[12] PortSend_1 62751
+scalar dragonflyplus.leafSwitch[12] PortSend_2 63308
+scalar dragonflyplus.leafSwitch[12] PortSend_3 61498
+scalar dragonflyplus.leafSwitch[12] PortSend_4 32038
+scalar dragonflyplus.leafSwitch[12] PortSend_5 32406
+scalar dragonflyplus.leafSwitch[13] PortSend_0 61903
+scalar dragonflyplus.leafSwitch[13] PortSend_1 62607
+scalar dragonflyplus.leafSwitch[13] PortSend_2 63147
+scalar dragonflyplus.leafSwitch[13] PortSend_3 61175
+scalar dragonflyplus.leafSwitch[13] PortSend_4 32289
+scalar dragonflyplus.leafSwitch[13] PortSend_5 31065
+scalar dragonflyplus.leafSwitch[14] PortSend_0 62034
+scalar dragonflyplus.leafSwitch[14] PortSend_1 62712
+scalar dragonflyplus.leafSwitch[14] PortSend_2 63256
+scalar dragonflyplus.leafSwitch[14] PortSend_3 61342
+scalar dragonflyplus.leafSwitch[14] PortSend_4 27338
+scalar dragonflyplus.leafSwitch[14] PortSend_5 31273
+scalar dragonflyplus.leafSwitch[15] PortSend_0 61928
+scalar dragonflyplus.leafSwitch[15] PortSend_1 62615
+scalar dragonflyplus.leafSwitch[15] PortSend_2 63142
+scalar dragonflyplus.leafSwitch[15] PortSend_3 61147
+scalar dragonflyplus.leafSwitch[15] PortSend_4 29781
+scalar dragonflyplus.leafSwitch[15] PortSend_5 32105
+scalar dragonflyplus.leafSwitch[16] PortSend_0 63256
+scalar dragonflyplus.leafSwitch[16] PortSend_1 61953
+scalar dragonflyplus.leafSwitch[16] PortSend_2 61480
+scalar dragonflyplus.leafSwitch[16] PortSend_3 62655
+scalar dragonflyplus.leafSwitch[16] PortSend_4 31864
+scalar dragonflyplus.leafSwitch[16] PortSend_5 31626
+scalar dragonflyplus.leafSwitch[17] PortSend_0 63477
+scalar dragonflyplus.leafSwitch[17] PortSend_1 62200
+scalar dragonflyplus.leafSwitch[17] PortSend_2 61799
+scalar dragonflyplus.leafSwitch[17] PortSend_3 62892
+scalar dragonflyplus.leafSwitch[17] PortSend_4 30893
+scalar dragonflyplus.leafSwitch[17] PortSend_5 33259
+scalar dragonflyplus.leafSwitch[18] PortSend_0 63376
+scalar dragonflyplus.leafSwitch[18] PortSend_1 62063
+scalar dragonflyplus.leafSwitch[18] PortSend_2 61609
+scalar dragonflyplus.leafSwitch[18] PortSend_3 62808
+scalar dragonflyplus.leafSwitch[18] PortSend_4 27832
+scalar dragonflyplus.leafSwitch[18] PortSend_5 31766
+scalar dragonflyplus.leafSwitch[19] PortSend_0 63194
+scalar dragonflyplus.leafSwitch[19] PortSend_1 61923
+scalar dragonflyplus.leafSwitch[19] PortSend_2 61387
+scalar dragonflyplus.leafSwitch[19] PortSend_3 62584
+scalar dragonflyplus.leafSwitch[19] PortSend_4 30237
+scalar dragonflyplus.leafSwitch[19] PortSend_5 28524
+scalar dragonflyplus.leafSwitch[20] PortSend_0 62718
+scalar dragonflyplus.leafSwitch[20] PortSend_1 61376
+scalar dragonflyplus.leafSwitch[20] PortSend_2 63178
+scalar dragonflyplus.leafSwitch[20] PortSend_3 61816
+scalar dragonflyplus.leafSwitch[20] PortSend_4 34145
+scalar dragonflyplus.leafSwitch[20] PortSend_5 33298
+scalar dragonflyplus.leafSwitch[21] PortSend_0 62862
+scalar dragonflyplus.leafSwitch[21] PortSend_1 61638
+scalar dragonflyplus.leafSwitch[21] PortSend_2 63360
+scalar dragonflyplus.leafSwitch[21] PortSend_3 61996
+scalar dragonflyplus.leafSwitch[21] PortSend_4 33500
+scalar dragonflyplus.leafSwitch[21] PortSend_5 36681
+scalar dragonflyplus.leafSwitch[22] PortSend_0 62925
+scalar dragonflyplus.leafSwitch[22] PortSend_1 61764
+scalar dragonflyplus.leafSwitch[22] PortSend_2 63374
+scalar dragonflyplus.leafSwitch[22] PortSend_3 62049
+scalar dragonflyplus.leafSwitch[22] PortSend_4 34325
+scalar dragonflyplus.leafSwitch[22] PortSend_5 31621
+scalar dragonflyplus.leafSwitch[23] PortSend_0 62874
+scalar dragonflyplus.leafSwitch[23] PortSend_1 61657
+scalar dragonflyplus.leafSwitch[23] PortSend_2 63313
+scalar dragonflyplus.leafSwitch[23] PortSend_3 62012
+scalar dragonflyplus.leafSwitch[23] PortSend_4 31482
+scalar dragonflyplus.leafSwitch[23] PortSend_5 31206
+scalar dragonflyplus.leafSwitch[24] PortSend_0 63436
+scalar dragonflyplus.leafSwitch[24] PortSend_1 62926
+scalar dragonflyplus.leafSwitch[24] PortSend_2 62134
+scalar dragonflyplus.leafSwitch[24] PortSend_3 61616
+scalar dragonflyplus.leafSwitch[24] PortSend_4 35737
+scalar dragonflyplus.leafSwitch[24] PortSend_5 33201
+scalar dragonflyplus.leafSwitch[25] PortSend_0 63448
+scalar dragonflyplus.leafSwitch[25] PortSend_1 62933
+scalar dragonflyplus.leafSwitch[25] PortSend_2 62129
+scalar dragonflyplus.leafSwitch[25] PortSend_3 61602
+scalar dragonflyplus.leafSwitch[25] PortSend_4 32613
+scalar dragonflyplus.leafSwitch[25] PortSend_5 32234
+scalar dragonflyplus.leafSwitch[26] PortSend_0 63330
+scalar dragonflyplus.leafSwitch[26] PortSend_1 62869
+scalar dragonflyplus.leafSwitch[26] PortSend_2 62110
+scalar dragonflyplus.leafSwitch[26] PortSend_3 61547
+scalar dragonflyplus.leafSwitch[26] PortSend_4 34596
+scalar dragonflyplus.leafSwitch[26] PortSend_5 31583
+scalar dragonflyplus.leafSwitch[27] PortSend_0 63394
+scalar dragonflyplus.leafSwitch[27] PortSend_1 62872
+scalar dragonflyplus.leafSwitch[27] PortSend_2 62079
+scalar dragonflyplus.leafSwitch[27] PortSend_3 61511
+scalar dragonflyplus.leafSwitch[27] PortSend_4 35473
+scalar dragonflyplus.leafSwitch[27] PortSend_5 35387
+scalar dragonflyplus.leafSwitch[28] PortSend_0 62158
+scalar dragonflyplus.leafSwitch[28] PortSend_1 62802
+scalar dragonflyplus.leafSwitch[28] PortSend_2 63377
+scalar dragonflyplus.leafSwitch[28] PortSend_3 61519
+scalar dragonflyplus.leafSwitch[28] PortSend_4 35271
+scalar dragonflyplus.leafSwitch[28] PortSend_5 31006
+scalar dragonflyplus.leafSwitch[29] PortSend_0 61973
+scalar dragonflyplus.leafSwitch[29] PortSend_1 62685
+scalar dragonflyplus.leafSwitch[29] PortSend_2 63204
+scalar dragonflyplus.leafSwitch[29] PortSend_3 61226
+scalar dragonflyplus.leafSwitch[29] PortSend_4 36663
+scalar dragonflyplus.leafSwitch[29] PortSend_5 33885
+scalar dragonflyplus.leafSwitch[30] PortSend_0 62032
+scalar dragonflyplus.leafSwitch[30] PortSend_1 62724
+scalar dragonflyplus.leafSwitch[30] PortSend_2 63249
+scalar dragonflyplus.leafSwitch[30] PortSend_3 61339
+scalar dragonflyplus.leafSwitch[30] PortSend_4 37569
+scalar dragonflyplus.leafSwitch[30] PortSend_5 33811
+scalar dragonflyplus.leafSwitch[31] PortSend_0 62077
+scalar dragonflyplus.leafSwitch[31] PortSend_1 62777
+scalar dragonflyplus.leafSwitch[31] PortSend_2 63317
+scalar dragonflyplus.leafSwitch[31] PortSend_3 61429
+scalar dragonflyplus.leafSwitch[31] PortSend_4 32264
+scalar dragonflyplus.leafSwitch[31] PortSend_5 35823
+scalar dragonflyplus.host[0] lastTime 0.01
+scalar dragonflyplus.host[0] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[0] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[0] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[0] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[0] flitEndToEndDelay:mean 3.0301005230449e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[1] lastTime 0.01
+scalar dragonflyplus.host[1] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[1] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[1] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[1] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[1] flitEndToEndDelay:mean 3.0152455757576e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[2] lastTime 0.01
+scalar dragonflyplus.host[2] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[2] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[2] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[2] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[2] flitEndToEndDelay:mean 3.0145794706771e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[3] lastTime 0.01
+scalar dragonflyplus.host[3] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[3] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[3] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[3] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[3] flitEndToEndDelay:mean 2.9063254420105e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[4] lastTime 0.01
+scalar dragonflyplus.host[4] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[4] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[4] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[4] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[4] flitEndToEndDelay:mean 2.9994964524388e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[5] lastTime 0.01
+scalar dragonflyplus.host[5] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[5] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[5] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[5] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[5] flitEndToEndDelay:mean 2.9812674096892e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[6] lastTime 0.01
+scalar dragonflyplus.host[6] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[6] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[6] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[6] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[6] flitEndToEndDelay:mean 2.9765524288936e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[7] lastTime 0.01
+scalar dragonflyplus.host[7] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[7] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[7] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[7] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[7] flitEndToEndDelay:mean 2.982228415309e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[8] lastTime 0.01
+scalar dragonflyplus.host[8] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[8] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[8] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[8] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[8] flitEndToEndDelay:mean 2.9833042917267e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[9] lastTime 0.01
+scalar dragonflyplus.host[9] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[9] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[9] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[9] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[9] flitEndToEndDelay:mean 3.1204580268158e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[10] lastTime 0.01
+scalar dragonflyplus.host[10] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[10] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[10] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[10] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[10] flitEndToEndDelay:mean 3.0158671342647e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[11] lastTime 0.01
+scalar dragonflyplus.host[11] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[11] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[11] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[11] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[11] flitEndToEndDelay:mean 3.0037969804511e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[12] lastTime 0.01
+scalar dragonflyplus.host[12] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[12] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[12] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[12] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[12] flitEndToEndDelay:mean 3.0466984831995e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[13] lastTime 0.01
+scalar dragonflyplus.host[13] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[13] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[13] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[13] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[13] flitEndToEndDelay:mean 2.9716344045294e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[14] lastTime 0.01
+scalar dragonflyplus.host[14] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[14] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[14] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[14] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[14] flitEndToEndDelay:mean 2.9809645033901e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[15] lastTime 0.01
+scalar dragonflyplus.host[15] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[15] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[15] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[15] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[15] flitEndToEndDelay:mean 3.018867102593e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[16] lastTime 0.01
+scalar dragonflyplus.host[16] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[16] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[16] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[16] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[16] flitEndToEndDelay:mean 2.7652429056009e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[17] lastTime 0.01
+scalar dragonflyplus.host[17] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[17] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[17] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[17] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[17] flitEndToEndDelay:mean 2.7978677280265e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[18] lastTime 0.01
+scalar dragonflyplus.host[18] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[18] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[18] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[18] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[18] flitEndToEndDelay:mean 2.8525289904788e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[19] lastTime 0.01
+scalar dragonflyplus.host[19] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[19] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[19] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[19] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[19] flitEndToEndDelay:mean 2.8284544104803e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[20] lastTime 0.01
+scalar dragonflyplus.host[20] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[20] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[20] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[20] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[20] flitEndToEndDelay:mean 2.821707214907e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[21] lastTime 0.01
+scalar dragonflyplus.host[21] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[21] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[21] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[21] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[21] flitEndToEndDelay:mean 2.8392620320856e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[22] lastTime 0.01
+scalar dragonflyplus.host[22] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[22] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[22] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[22] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[22] flitEndToEndDelay:mean 2.7261546201612e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[23] lastTime 0.01
+scalar dragonflyplus.host[23] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[23] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[23] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[23] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[23] flitEndToEndDelay:mean 2.7468836459157e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[24] lastTime 0.01
+scalar dragonflyplus.host[24] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[24] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[24] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[24] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[24] flitEndToEndDelay:mean 2.8671727523566e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[25] lastTime 0.01
+scalar dragonflyplus.host[25] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[25] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[25] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[25] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[25] flitEndToEndDelay:mean 2.8786921138061e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[26] lastTime 0.01
+scalar dragonflyplus.host[26] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[26] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[26] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[26] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[26] flitEndToEndDelay:mean 2.9623750899687e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[27] lastTime 0.01
+scalar dragonflyplus.host[27] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[27] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[27] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[27] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[27] flitEndToEndDelay:mean 2.8616986988572e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[28] lastTime 0.01
+scalar dragonflyplus.host[28] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[28] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[28] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[28] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[28] flitEndToEndDelay:mean 2.7557267861585e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[29] lastTime 0.01
+scalar dragonflyplus.host[29] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[29] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[29] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[29] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[29] flitEndToEndDelay:mean 2.8142521565618e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[30] lastTime 0.01
+scalar dragonflyplus.host[30] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[30] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[30] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[30] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[30] flitEndToEndDelay:mean 2.8614259239112e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[31] lastTime 0.01
+scalar dragonflyplus.host[31] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[31] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[31] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[31] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[31] flitEndToEndDelay:mean 2.7994780961874e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[32] lastTime 0.01
+scalar dragonflyplus.host[32] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[32] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[32] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[32] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[32] flitEndToEndDelay:mean 2.6165446346975e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[33] lastTime 0.01
+scalar dragonflyplus.host[33] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[33] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[33] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[33] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[33] flitEndToEndDelay:mean 2.602454345159e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[34] lastTime 0.01
+scalar dragonflyplus.host[34] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[34] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[34] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[34] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[34] flitEndToEndDelay:mean 2.5764213562943e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[35] lastTime 0.01
+scalar dragonflyplus.host[35] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[35] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[35] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[35] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[35] flitEndToEndDelay:mean 2.5850052400854e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[36] lastTime 0.01
+scalar dragonflyplus.host[36] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[36] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[36] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[36] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[36] flitEndToEndDelay:mean 2.6254348031044e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[37] lastTime 0.01
+scalar dragonflyplus.host[37] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[37] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[37] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[37] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[37] flitEndToEndDelay:mean 2.6028871321539e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[38] lastTime 0.01
+scalar dragonflyplus.host[38] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[38] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[38] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[38] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[38] flitEndToEndDelay:mean 2.6209968660912e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[39] lastTime 0.01
+scalar dragonflyplus.host[39] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[39] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[39] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[39] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[39] flitEndToEndDelay:mean 2.6124465236292e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[40] lastTime 0.01
+scalar dragonflyplus.host[40] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[40] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[40] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[40] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[40] flitEndToEndDelay:mean 2.5238547793235e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[41] lastTime 0.01
+scalar dragonflyplus.host[41] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[41] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[41] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[41] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[41] flitEndToEndDelay:mean 2.4979937677939e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[42] lastTime 0.01
+scalar dragonflyplus.host[42] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[42] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[42] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[42] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[42] flitEndToEndDelay:mean 2.4859603677612e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[43] lastTime 0.01
+scalar dragonflyplus.host[43] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[43] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[43] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[43] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[43] flitEndToEndDelay:mean 2.5005350126769e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[44] lastTime 0.01
+scalar dragonflyplus.host[44] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[44] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[44] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[44] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[44] flitEndToEndDelay:mean 2.4969984186453e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[45] lastTime 0.01
+scalar dragonflyplus.host[45] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[45] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[45] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[45] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[45] flitEndToEndDelay:mean 2.5079636140539e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[46] lastTime 0.01
+scalar dragonflyplus.host[46] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[46] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[46] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[46] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[46] flitEndToEndDelay:mean 2.5138693399403e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[47] lastTime 0.01
+scalar dragonflyplus.host[47] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[47] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[47] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[47] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[47] flitEndToEndDelay:mean 2.4565209049542e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[48] lastTime 0.01
+scalar dragonflyplus.host[48] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[48] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[48] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[48] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[48] flitEndToEndDelay:mean 2.4821818596972e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[49] lastTime 0.01
+scalar dragonflyplus.host[49] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[49] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[49] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[49] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[49] flitEndToEndDelay:mean 2.4868774217644e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[50] lastTime 0.01
+scalar dragonflyplus.host[50] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[50] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[50] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[50] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[50] flitEndToEndDelay:mean 2.4651114684328e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[51] lastTime 0.01
+scalar dragonflyplus.host[51] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[51] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[51] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[51] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[51] flitEndToEndDelay:mean 2.477693466526e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[52] lastTime 0.01
+scalar dragonflyplus.host[52] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[52] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[52] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[52] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[52] flitEndToEndDelay:mean 2.4781087108336e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[53] lastTime 0.01
+scalar dragonflyplus.host[53] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[53] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[53] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[53] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[53] flitEndToEndDelay:mean 2.4548597308679e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[54] lastTime 0.01
+scalar dragonflyplus.host[54] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[54] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[54] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[54] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[54] flitEndToEndDelay:mean 2.4893548107011e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[55] lastTime 0.01
+scalar dragonflyplus.host[55] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[55] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[55] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[55] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[55] flitEndToEndDelay:mean 2.4942688331873e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[56] lastTime 0.01
+scalar dragonflyplus.host[56] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[56] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[56] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[56] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[56] flitEndToEndDelay:mean 2.5094369697485e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[57] lastTime 0.01
+scalar dragonflyplus.host[57] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[57] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[57] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[57] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[57] flitEndToEndDelay:mean 2.5259590840482e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[58] lastTime 0.01
+scalar dragonflyplus.host[58] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[58] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[58] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[58] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[58] flitEndToEndDelay:mean 2.5257615099692e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[59] lastTime 0.01
+scalar dragonflyplus.host[59] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[59] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[59] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[59] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[59] flitEndToEndDelay:mean 2.4872058692637e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[60] lastTime 0.01
+scalar dragonflyplus.host[60] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[60] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[60] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[60] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[60] flitEndToEndDelay:mean 2.4983190524102e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[61] lastTime 0.01
+scalar dragonflyplus.host[61] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[61] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[61] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[61] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[61] flitEndToEndDelay:mean 2.4931024625122e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[62] lastTime 0.01
+scalar dragonflyplus.host[62] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[62] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[62] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[62] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[62] flitEndToEndDelay:mean 2.5011569749566e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.host[63] lastTime 0.01
+scalar dragonflyplus.host[63] ALL_FLIT_SEND 8011776
+scalar dragonflyplus.host[63] ALL_FLIT_GEN 8011776
+scalar dragonflyplus.host[63] ALL_FLIT_RECEIVE 2025348
+scalar dragonflyplus.host[63] ALL_MSG_RECEIVE 533
+scalar dragonflyplus.host[63] flitEndToEndDelay:mean 2.5098192691846e-006
+attr interpolationmode none
+attr title "end-to-end delay of message, mean"
+attr unit s
+scalar dragonflyplus.openflow_switch[0] PortSend_0 1953057
+scalar dragonflyplus.openflow_switch[0] PortSend_1 1952555
+scalar dragonflyplus.openflow_switch[0] PortSend_2 1953057
+scalar dragonflyplus.openflow_switch[0] PortSend_3 1952890
+scalar dragonflyplus.openflow_switch[0] PortSend_4 1953057
+scalar dragonflyplus.openflow_switch[0] PortSend_5 1952905
+scalar dragonflyplus.openflow_switch[0] PortSend_6 1953057
+scalar dragonflyplus.openflow_switch[0] PortSend_7 1952550
+scalar dragonflyplus.openflow_switch[1] PortSend_0 1953055
+scalar dragonflyplus.openflow_switch[1] PortSend_1 1953065
+scalar dragonflyplus.openflow_switch[1] PortSend_2 1953067
+scalar dragonflyplus.openflow_switch[1] PortSend_3 1953067
+scalar dragonflyplus.openflow_switch[1] PortSend_4 1953057
+scalar dragonflyplus.openflow_switch[1] PortSend_5 1953062
+scalar dragonflyplus.openflow_switch[1] PortSend_6 1953055
+scalar dragonflyplus.openflow_switch[1] PortSend_7 1953065
+scalar dragonflyplus.openflow_switch[2] PortSend_0 1952990
+scalar dragonflyplus.openflow_switch[2] PortSend_1 1953070
+scalar dragonflyplus.openflow_switch[2] PortSend_2 1953002
+scalar dragonflyplus.openflow_switch[2] PortSend_3 1953057
+scalar dragonflyplus.openflow_switch[2] PortSend_4 1953050
+scalar dragonflyplus.openflow_switch[2] PortSend_5 1953057
+scalar dragonflyplus.openflow_switch[2] PortSend_6 1952927
+scalar dragonflyplus.openflow_switch[2] PortSend_7 1953057
+scalar dragonflyplus.openflow_switch[3] PortSend_0 1953075
+scalar dragonflyplus.openflow_switch[3] PortSend_1 1953075
+scalar dragonflyplus.openflow_switch[3] PortSend_2 1953075
+scalar dragonflyplus.openflow_switch[3] PortSend_3 1953075
+scalar dragonflyplus.openflow_switch[3] PortSend_4 1953080
+scalar dragonflyplus.openflow_switch[3] PortSend_5 1953077
+scalar dragonflyplus.openflow_switch[3] PortSend_6 1953082
+scalar dragonflyplus.openflow_switch[3] PortSend_7 1953070
+scalar dragonflyplus.openflow_switch[4] PortSend_0 1953057
+scalar dragonflyplus.openflow_switch[4] PortSend_1 1952505
+scalar dragonflyplus.openflow_switch[4] PortSend_2 1953057
+scalar dragonflyplus.openflow_switch[4] PortSend_3 1952895
+scalar dragonflyplus.openflow_switch[4] PortSend_4 1953070
+scalar dragonflyplus.openflow_switch[4] PortSend_5 1952905
+scalar dragonflyplus.openflow_switch[4] PortSend_6 1953057
+scalar dragonflyplus.openflow_switch[4] PortSend_7 1952595
+scalar dragonflyplus.openflow_switch[5] PortSend_0 1953052
+scalar dragonflyplus.openflow_switch[5] PortSend_1 1953065
+scalar dragonflyplus.openflow_switch[5] PortSend_2 1953067
+scalar dragonflyplus.openflow_switch[5] PortSend_3 1953057
+scalar dragonflyplus.openflow_switch[5] PortSend_4 1953065
+scalar dragonflyplus.openflow_switch[5] PortSend_5 1953057
+scalar dragonflyplus.openflow_switch[5] PortSend_6 1953067
+scalar dragonflyplus.openflow_switch[5] PortSend_7 1953055
+scalar dragonflyplus.openflow_switch[6] PortSend_0 1952962
+scalar dragonflyplus.openflow_switch[6] PortSend_1 1953070
+scalar dragonflyplus.openflow_switch[6] PortSend_2 1953002
+scalar dragonflyplus.openflow_switch[6] PortSend_3 1953057
+scalar dragonflyplus.openflow_switch[6] PortSend_4 1953050
+scalar dragonflyplus.openflow_switch[6] PortSend_5 1953057
+scalar dragonflyplus.openflow_switch[6] PortSend_6 1952952
+scalar dragonflyplus.openflow_switch[6] PortSend_7 1953057
+scalar dragonflyplus.openflow_switch[7] PortSend_0 0
+scalar dragonflyplus.openflow_switch[7] PortSend_1 0
+scalar dragonflyplus.openflow_switch[7] PortSend_2 0
+scalar dragonflyplus.openflow_switch[7] PortSend_3 0
+scalar dragonflyplus.openflow_switch[7] PortSend_4 0
+scalar dragonflyplus.openflow_switch[7] PortSend_5 0
+scalar dragonflyplus.openflow_switch[7] PortSend_6 0
+scalar dragonflyplus.openflow_switch[7] PortSend_7 0
+
